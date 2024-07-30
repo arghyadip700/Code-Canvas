@@ -3,7 +3,7 @@ body {
 }
 
 .top-pane {
-    background-color: hsl(225, 6%, 25%);
+    background-color: hsl(225, 6%, 30%);
 }
 
 .pane {
@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: .5rem;
-    background-color: rgb(128, 115, 99);
+    background-color: hsl(225, 6%, 30%);
 }
 
 .editor-container.collapsed {
@@ -61,8 +61,30 @@ body {
 
 .banner{
   height: 6vh;
-  font-size: xx-large;
+  /* font-size: xx-large; */
   padding: .5rem .5rem .5rem .5rem;
-  background-color: rgb(128, 115, 99);
-  color: white;
+  background-color: hsl(225, 6%, 10%);
+  /* color: white; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: start; */
+}
+
+.title{
+    font-size: xx-large;
+    color: white;
+}
+
+.logo{
+    height: 35px;
+    width: 35px;
+    border: black;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.imageborder{
+    border-radius: 5px;
 }
